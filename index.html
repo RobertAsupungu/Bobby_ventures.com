@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobby's site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="logo">Bobby's Ventures</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="file:///C:/Users/Rev/Desktop/Bobby_ventures.com/index.html">Home</a></li>
+            <li><a href="https://web.facebook.com/asupungu.robert.3">About Us</a></li>
+            <li><a href="https://web.facebook.com/asupungu.robert.3/posts/pfbid02hB3ZYHpULx6ekn4c1jPbePDeTxnByQbAaAMG5rqjJdshdKHXJZVKgiNKFrUqHxiZl">Explore</a></li>
+            <li class="ctn"><a href="https://web.facebook.com/asupungu.robert.3">Contact us  </a></li> 
+        </ul>
+        <img src="images/menu.png" alt="menu" class="menu-btn">
+    </div>
+    <header>
+        <div class="header-content">
+            <h2>We sell our products at cool prices.</h2>
+            <div class="line"></div>
+            <h1>WELCOME TO BOBBY'S VENTURES</h1>
+            <a href="https://web.facebook.com/asupungu.robert.3" class="ctn">Explore</a>
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="title">
+            <h1>Our Products</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/6 (1).jpg" alt="Blenders">
+                <h4>Blenders Available</h4>
+                <p>Bobby ventures has brought to your<br>door step this<br>silver crest or blender.<br>Its price is very affordable.<br>Just click the button to get it! </p>
+                <a href="https://web.facebook.com/asupungu.robert.3" class="ctn">BUY</a>
+            </div>
+            <div class="col">
+                <img src="images/1.jpg" alt="Rice Cooker">
+                <h4>Rice Cookers Available</h4>
+                <p>Bobby ventures has brought to your<br>door step this<br>AILYONS rice cooker.<br>Its price is very affordable.<br>Just click the button to get it! </p>
+                <a href="https://web.facebook.com/asupungu.robert.3" class="ctn">BUY</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>OTHER PRODUCTS</h1>
+            <div class="line"></div>
+        <p>Some of our products are of different colors. The AILYONS rice cooker for instance has two colors, red and black. Just tap on "BUY" to get your product.</p>
+        <a href="https://web.facebook.com/asupungu.robert.3" class="ctn">BUY</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>All PRODUCTS</h1>
+                <div class="line"></div>
+                <p>Here are other products we sell. We have blind curtains,rice cookers, bowls and manymore. Contact us and the prices of the products will be told to you. </p>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/6 (2).jpg" alt="Blenders">
+                    <img src="images/6 (1).jpg" alt="Blenders">
+                    <img src="images/2.jpg" alt="Blenders">
+                    <img src="images/curtains.jpg" alt="Blenders">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Location: Kologo-Naaga Road,Navrongo,Ghana. Phone: +233 55 411 8784. Email:robertasupungu@gmail.com </p>
+        <p>copyright ©  2024 , Bobby's Venture</p>
+    </section>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
